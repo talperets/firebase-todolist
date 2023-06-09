@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import {
-  collection,
-  query,
-  onSnapshot,
-} from "firebase/firestore";
+import { collection, query, onSnapshot } from "firebase/firestore";
 import { db } from "./components/firebase";
 import { Home } from "./components/Home";
 import { TodoItem } from "./components/TodoItem";
